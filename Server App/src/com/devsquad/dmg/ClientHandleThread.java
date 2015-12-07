@@ -36,8 +36,8 @@ public class ClientHandleThread extends Thread {
 	
 	public void run() {
 		
-		out.write("Some response...");
-		
+		out.write("Welcome to our server...");
+		out.flush();
 		out.close();
 		
 		try {
